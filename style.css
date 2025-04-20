@@ -1,0 +1,64 @@
+body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background: #f9f9f9;
+                color: #333;
+            }
+            header {
+                background: #b4cedf;
+                color: white;
+                padding: 1rem 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .logo {
+                font-weight: bold;
+                font-size: 1.5rem;
+                user-select: none;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin-left: 1rem;
+                font-weight: bold;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+            main {
+                max-width: 900px;
+                margin: 2rem auto;
+                padding: 0 1rem;
+            }
+            footer {
+                text-align: center;
+                padding: 1rem;
+                font-size: 0.9rem;
+                color: #666;
+                border-top: 1px solid #ddd;
+                margin-top: 2rem;
+            }
+            #name{
+                height: 50px;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            #email{
+                height: 50px;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            #message{
+                padding-top: 2px;
+                height: 50px;
+                width: 100%;
+            }
+            #wel{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: larger;
+                background-image: -moz-linear-gradient(122,140,56);
+                text-decoration: none;
+                text-shadow: #b4cedf 10px ;
+            }
