@@ -62,3 +62,40 @@ body {
                 text-decoration: none;
                 text-shadow: #b4cedf 10px ;
             }
+body {
+    font-family: Arial, sans-serif;
+}
+
+.accordion {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.accordion-button {
+    background-color: #f1f1f1;
+    color: #444;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+}
+
+.accordion-button:hover {
+    background-color: #ddd;
+}
+
+.accordion-content {
+    padding: 0 15px;
+    display: none; /* Hidden by default */
+    overflow: hidden;
+    background-color: white;
+}
