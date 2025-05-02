@@ -62,6 +62,9 @@ body {
                 text-decoration: none;
                 text-shadow: #b4cedf 10px ;
             }
+            #left{
+              float:left;
+            }
 
 /*submenus */
 nav {
